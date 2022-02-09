@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header{
+    display: flex;
+    padding: 20px;
+    padding-left: 40px;
+    color: #D6000D;
+    justify-content: space-between;
+    
+}
+
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    font-style: italic;        
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    color: black;    
+    padding-top: 10px; 
+    gap: 5rem;
+    font-size: 30px ;
+    font-weight: 400;
+}
+
+.divimg{
+    max-width: 600px;
+}
+
+main{
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    justify-content: space-around;
+    
+}
