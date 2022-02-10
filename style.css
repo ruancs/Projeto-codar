@@ -47,18 +47,81 @@ h1{
 }
 
 .divimg{
-    max-width: 600px;
+    max-width: 550px;    
+
 }
 
 
 main{
     display: flex;
-    padding: 5rem;
+    flex-basis: 25%;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
-    
+}
+
+main > div{
+    padding: 0;
+    margin: 8rem;
+}
+
+#contato{
+    display: block;
+    justify-content: left;
 }
 
 #orçamento{
     border-bottom: none;
 }
+
+
+
+
+
+
+@media screen and (max-width: 1600px){
+
+    main{
+        padding: 0;
+        margin-left: 0;
+    }
+
+    
+    .divimg{
+        max-width: 400px;        
+        
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+
+
+    #logo{
+        display: inline-block;
+    }
+
+    main>div{
+        display: flex;
+        margin: 3.5rem;
+    }
+
+    #login{
+        position: absolute;
+        margin-top: 200px;
+    }
+
+
+    .divimg{
+        min-width: 400px !important;
+        
+    }    
+
+  .list{
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type:none;
+  }
+    
+}
+
