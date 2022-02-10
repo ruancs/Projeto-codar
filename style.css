@@ -19,6 +19,7 @@ h1{
     font-style: italic;        
 }
 
+
 .list{
     list-style-type: none;
     display: flex;
@@ -29,9 +30,26 @@ h1{
     font-weight: 400;
 }
 
+#login{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-top:5px;
+    padding-left: 50px;
+    padding-right: 50px;    
+    border-radius: 10px;
+    background: #D6000D;    
+}
+
+#login:hover{
+    filter: brightness(1.5);
+    transition: 0.5s;
+}
+
 .divimg{
     max-width: 600px;
 }
+
 
 main{
     display: flex;
@@ -39,4 +57,8 @@ main{
     align-items: center;
     justify-content: space-around;
     
+}
+
+#orçamento{
+    border-bottom: none;
 }
