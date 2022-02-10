@@ -30,7 +30,7 @@ h1{
     font-weight: 400;
 }
 
-#login{
+.login{
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -41,7 +41,7 @@ h1{
     background: #D6000D;    
 }
 
-#login:hover{
+.login:hover{
     filter: brightness(1.5);
     transition: 0.5s;
 }
@@ -70,9 +70,6 @@ main > div{
     justify-content: left;
 }
 
-#orçamento{
-    border-bottom: none;
-}
 
 
 
@@ -106,10 +103,11 @@ main > div{
         margin: 3.5rem;
     }
 
-    #login{
+    .orc{
         position: absolute;
         margin-top: 200px;
-    }
+    } 
+    
 
 
     .divimg{
@@ -123,8 +121,4 @@ main > div{
       list-style-type:none;
   }
     
-}
-
-#orçamento{
-    border-bottom: none;
 }
