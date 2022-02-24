@@ -70,6 +70,16 @@ main > div{
     justify-content: left;
 }
 
+#box{
+    margin-top: 30px;
+    padding: 7px;
+    font-size: 18px;
+    padding-left: 50px;
+    border-color: transparent;
+    background: lightgray;
+    padding-right: 50px;
+    border-radius: 10px;
+}
 
 
 
@@ -98,9 +108,16 @@ main > div{
         display: inline-block;
     }
 
+
     main>div{
         display: flex;
         margin: 3.5rem;
+    }
+
+    .list-contact{
+        position: relative;
+        top:500px;
+
     }
 
     .orc{
@@ -110,7 +127,9 @@ main > div{
     
 
 
-    .divimg{
+    .code{
+        position: relative;
+        bottom:450px;
         min-width: 400px !important;
         
     }    
@@ -119,6 +138,14 @@ main > div{
       display: flex;
       flex-wrap: wrap;
       list-style-type:none;
+  }
+
+  #box{
+      padding-right: 13px;
+  }
+
+  .call{
+      margin-top: 20px;
   }
     
 }
