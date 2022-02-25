@@ -81,6 +81,25 @@ main > div{
     border-radius: 10px;
 }
 
+.depoiments{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 40px;
+
+}
+
+.dep{
+    display: flex;
+    background: gray;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 400px;
+    height: 150px;
+}
+
 
 
 
