@@ -116,6 +116,15 @@ main > div{
     justify-content: space-between;
 }
 
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 40px;
+    margin: 40px;
+    cursor: pointer;
+}
+
 
 
 
