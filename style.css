@@ -101,7 +101,7 @@ main > div{
 
 .dep{
     display: flex;
-    background: gray;
+    background: lightgray;
     border-radius: 10px;
     justify-content: space-between;
     width: 400px;
