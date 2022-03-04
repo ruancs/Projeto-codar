@@ -106,7 +106,7 @@ main > div{
     justify-content: space-between;
     width: 600px;
     color: #000;
-    height: 170px;
+    height: 200px;
 }
 
 .dep-text{
@@ -168,11 +168,24 @@ main > div{
 
     }
 
+    .circle{
+        height: 90px;
+
+    }
+
 
     
 }
 
 @media screen and (max-width: 900px){
+
+    #logo{
+        text-align: center;
+    }
+
+    .list{
+        font-size: 25px;
+    }
 
     .header{
         flex-direction: column;
@@ -187,6 +200,12 @@ main > div{
     .dep{
         width: auto;
     }
+
+    .circle{
+        height: 95px;
+
+    }
+
 
     .footer{
 
@@ -203,6 +222,7 @@ main > div{
 
 
     #logo{
+        text-align: center;
         display: inline-block;
     }
 
