@@ -104,8 +104,28 @@ main > div{
     background: lightgray;
     border-radius: 10px;
     justify-content: space-between;
-    width: 400px;
-    height: 150px;
+    width: 600px;
+    color: #000;
+    height: 170px;
+}
+
+.dep-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;    
+    font-size: 14px;
+
+}
+
+.circle{
+    position: relative;
+    margin: 20px;
+    background-color: #D6000D;
+    width: 147px;
+    height: 111px;
+    border-radius: 50%;
+    
 }
 
 .footer{
@@ -148,6 +168,29 @@ main > div{
 
     }
 
+
+    
+}
+
+@media screen and (max-width: 900px){
+
+    .depoiments{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .dep{
+        max-width:500px ;
+    }
+
+    .footer{
+
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    
+      }
 
     
 }
